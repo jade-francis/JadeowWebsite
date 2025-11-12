@@ -1,0 +1,94 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: pink;
+}
+
+a:hover{
+    color: blue;
+}
+
+.nav{
+    background-color: purple;
+    display: flex;
+    gap: 0.5%;
+    padding: 0.1% 0.05% 0.1% 1.5%;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+.nav-links{
+    margin-left: 45%;
+    gap: 10%;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-links a{
+    padding: 0% 0% 0% 0.1%;
+}
+
+.image{
+    display:flex;
+    justify-content: center;
+}
+
+.log{
+    width: 30%;
+    height: auto;
+    border-radius: 70%;
+}
+
+.landing-content{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-family: Georgia;
+    gap: 19.9%;
+}
+
+h1{
+    font-style: oblique;
+    font-weight: bolder;
+    color: green;
+    font-size: 300%;
+}
+/*look into these below*/
+
+.landing-content p{
+    font-family: Georgia;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    color:aqua
+}
+
+.CTAs{
+    display: flex;
+}
+
+.CTAs button{
+    width: fit-content;
+    height: fit-content;
+}
+
+footer{
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #2c2c2c;
+}
