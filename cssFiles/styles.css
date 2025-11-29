@@ -76,13 +76,28 @@ h1{
     color:aqua
 }
 
+social-media{
+    display: flex;
+    flex-direction: row;
+}
+
 .CTAs{
     display: flex;
 }
 
-.CTAs button{
+.CTAs button {
     width: fit-content;
     height: fit-content;
+}
+
+.CTAs button A{
+    color: yellow;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 footer{
