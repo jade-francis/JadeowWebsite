@@ -1,17 +1,96 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url(/cssFiles/Georgia\ Font/Georgia.ttf);
+    font-weight: normal;
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    background-color: white;
     color: black;
 }
 
-a{
+header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5em;
+    padding: 2em;
+    background: #05013f;
+}
+
+header .nav .logo img{
+    height: 70px;
+    width: 70px;
+}
+
+header .nav .nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav .nav-links a{
+    color: white;
     text-decoration: none;
-    color: pink;
+}
+
+.landing-content {
+    position: relative;
+    background-image: url('/imageFiles/twbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.landing-content-2{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    background: #00000085;
+    width: 100%;
+    height: 100%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-content-2 h1{
+   font-size: 15em;
+   font-family:"Georgia";
+}
+
+.landing-content-2 p{
+    font-size: 2em;
+    font-family: "Georgia";
+}
+
+.CTAs button{
+    background: rgb(231, 168, 9);
+    border: none;
+    height: fit-content;
+    height: 12px;
+}
+button a{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12px;
+
+}
+/* a{
+    text-decoration: none;
+    color: white;
 }
 
 a:hover{
@@ -19,12 +98,15 @@ a:hover{
 }
 
 .nav{
-    background-color: purple;
+    background-color: gold;
     display: flex;
     gap: 0.5%;
-    padding: 0.1% 0.05% 0.1% 1.5%;
+    padding: 0.5em;
     font-family: 'Times New Roman';
     font-size: 15px;
+    flex-direction: row;
+    align-items: center;
+    height: 4em;
 }
 
 .nav-links{
@@ -33,6 +115,7 @@ a:hover{
     font-weight: 400;
     display: flex;
     justify-content: flex-start;
+    flex-direction: row;
 }
 
 .nav-links a{
@@ -67,7 +150,7 @@ h1{
 }
 /*look into these below*/
 
-.landing-content p{
+/* .landing-content p{
     font-family: Georgia;
     font-size: 100%;
     padding: 0;
@@ -76,13 +159,19 @@ h1{
     color:aqua
 }
 
-social-media{
+.social-media{
     display: flex;
     flex-direction: row;
+    gap: 12px;
+}
+.social-media > a > img {
+    height: 24px;
+    width: 24px;
 }
 
 .CTAs{
     display: flex;
+    gap: 10px;
 }
 
 .CTAs button {
@@ -101,9 +190,19 @@ social-media{
 }
 
 footer{
-    background-color: #1a1a1a;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
     border-top: 1px solid #2c2c2c;
 }
+
+@media only screen and (max-width: 768px) {
+    .nav{
+        flex-direction: column;
+    }
+
+    .nav-links{
+        margin-left: 45%;
+        flex-direction: column;
+    }
+} */
