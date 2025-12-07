@@ -1,92 +1,110 @@
-*{
-    margin: 0;
-    border-radius: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  border-radius: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "Georgia";
-    src: url(/cssFiles/Georgia\ Font/Georgia.ttf);
-    font-weight: normal;
+  font-family: "Georgia";
+  src: url(/cssFiles/Georgia\ Font/Georgia.ttf);
+  font-weight: normal;
 }
 
-body{
-    color: black;
+body {
+  color: black;
 }
 
-header .nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 5em;
-    padding: 2em;
-    background: #05013f;
+header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 5em;
+  padding: 2em;
+  background: #05013f;
 }
 
-header .nav .logo img{
-    height: 60px;
-    width: 70px;
+header .nav .logo img {
+  height: 60px;
+  width: 70px;
 }
 
-header .nav .nav-links{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header .nav .nav-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header .nav .nav-links a{
-    color: white;
-    text-decoration: none;
+header .nav .nav-links a {
+  color: white;
+  text-decoration: none;
 }
 
 .landing-content {
-    position: relative;
-    background-image: url('/imageFiles/twbg.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
+  position: relative;
+  background-image: url("/imageFiles/twbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
-.landing-content-2{
-    position: absolute;
-    display: flex;
-    z-index: 1;
-    background: #00000085;
-    width: 100%;
-    height: 100%;
-    color: white;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.landing-content-2 h1{
-   font-size: 15em;
-   font-family:"Georgia";
+.landing-content-2 {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  background: #00000085;
+  width: 100%;
+  height: 100%;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.landing-content-2 p{
-    font-size: 2em;
-    font-family: "Georgia";
+.landing-content-2 h1 {
+  font-size: 15em;
+  font-family: "Georgia";
 }
 
-.CTAs button{
-    background: rgb(231, 168, 9);
-    border: none;
-    height: fit-content;
+.landing-content-2 p {
+  font-size: 2em;
+  font-family: "Georgia";
 }
-button a{
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 12px;
 
+.CTAs {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20px;
 }
+
+.btn {
+  background-color: #0a1a5e;
+  opacity: 1;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #10227a;
+}
+
+.bn:hover {
+  background-color: #10227a;
+}
+.bn {
+  background-color: #0a1a5e;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 /* a{
     text-decoration: none;
     color: white;
