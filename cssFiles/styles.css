@@ -12,6 +12,8 @@
 
 body {
   color: black;
+    background-color: #4f69ee;
+
 }
 
 header .nav {
@@ -87,22 +89,58 @@ header .nav .nav-links a {
   background-color: #0a1a5e;
   opacity: 1;
   color: white;
+  border: 1px solid #d4af37;
   border-radius: 5px;
   text-decoration: none;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
 .btn:hover {
   background-color: #10227a;
+  color: aliceblue;
 }
 
 .bn:hover {
   background-color: #10227a;
+  color: aliceblue;
 }
-.bn {
+ .bn { /* Work on the button size */
   background-color: #0a1a5e;
   color: white;
+  border: 1px solid #d4af37;
   border-radius: 5px;
   text-decoration: none;
+  cursor: pointer;
+margin-left: 10px;
+}
+
+.sub {
+  height:100vh;
+  padding: 12px 0;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 12px 0 12px 24px;
+  color: #05013f;
+  font-size: 24px;
+
+}
+
+.Recent{
+  background-color:white ;
+  padding: 10px;
+  border-radius: 10px;
+  width: 20%;
+  height: 50vh;
+  text-align: center;
+}
+.Recent .icon img{
+  width: 30px;
+  height: 20px;
+  margin-bottom: 10px;
 }
 
 /* a{
