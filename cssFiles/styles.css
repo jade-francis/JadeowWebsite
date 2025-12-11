@@ -15,6 +15,7 @@ body {
    background-color: white /*#35556e; */
 }
 
+
 header .nav {
   display: flex;
   align-items: center;
@@ -109,7 +110,6 @@ header .nav .nav-links a {
   color: aliceblue;
 }
 .bn {
-  /* Work on the button size */
   background-color: #0a1a5e;
   color: white;
   display: flex;
@@ -126,12 +126,13 @@ header .nav .nav-links a {
 .sub {
   height: 100vh;
   padding: 12px 0;
+  background-color: #e7e7e7;
 }
 .cards {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  margin: 12px 0 12px 24px;
+  margin: 0px 0 12px 24px;
   color: white;
   font-size: 18px;
 }
@@ -145,7 +146,7 @@ header .nav .nav-links a {
   padding: 10px;
   border-radius: 10px;
   width: 30%;
-  height: 50vh;
+  height: 45vh;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -164,7 +165,7 @@ header .nav .nav-links a {
   padding: 10px;
   border-radius: 10px;
   width: 30%;
-  height: 50vh;
+  height: 45vh;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -183,7 +184,7 @@ header .nav .nav-links a {
   padding: 10px;
   border-radius: 10px;
   width: 30%;
-  height: 50vh;
+  height: 45vh;
   text-align: center;
   letter-spacing: 1px;
   margin: 0 12px 0 0;
@@ -209,6 +210,21 @@ header .nav .nav-links a {
   cursor: pointer;
   margin-top: 12px;
 }
+
+.bon:hover{
+  background-color: #10227a;
+  color: wheat;
+}
+
+.displayimage img{
+  height: 45vh;
+  width: 100vw;
+}
+.displayimage img{
+image-rendering: pixelated;
+}
+
+
 /* a{
     text-decoration: none;
     color: white;
