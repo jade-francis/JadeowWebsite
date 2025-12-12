@@ -24,6 +24,9 @@ header .nav {
   height: 5em;
   padding: 2em;
   background: #05013f;
+  position: fixed;
+  z-index: 999;
+  top: 0;
 }
 
 header .nav .logo img {
@@ -123,7 +126,7 @@ header .nav .nav-links a {
   margin-left: 10px;
 }
 
-.sub {
+/* .sub {
   height: 100vh;
   padding: 12px 0;
   background-color: #e7e7e7;
@@ -223,7 +226,7 @@ header .nav .nav-links a {
 .displayimage img{
 image-rendering: pixelated;
 }
-
+ */
 
 /* a{
     text-decoration: none;
